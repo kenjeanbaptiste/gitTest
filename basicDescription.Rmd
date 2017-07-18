@@ -20,5 +20,5 @@ plot(babynames$year[kens], 100*babynames$prop[kens], main="Popularity of Ken Ove
 Paige's edit
 ```{r PaigeEdit}
 barbies = babynames$name == "Barbie"
-plot(babynames$year[barbies], 100*babynames$prop[barbies], main="Popularity of Ken Over the Years", xlab="year", ylab="Popularity")
+plot(babynames$year[barbies], 100*babynames$prop[barbies], main="Popularity of Barbie Over the Years", xlab="year", ylab="Popularity")
 ```
