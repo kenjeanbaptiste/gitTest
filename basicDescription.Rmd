@@ -1,0 +1,18 @@
+---
+title: "basicDescripion"
+author: "Ken Jean-Baptiste"
+date: "July 18, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Some Demo Stuff
+
+```{r demo}
+library(babynames)
+kens = babynames$name == "Ken"
+plot(babynames$year[kens], 100*babynames$prop[kens], main="Popularity of Ken Over the Years", xlab="year", ylab="Popularity")
+```
