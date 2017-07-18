@@ -16,3 +16,6 @@ library(babynames)
 kens = babynames$name == "Ken"
 plot(babynames$year[kens], 100*babynames$prop[kens], main="Popularity of Ken Over the Years", xlab="year", ylab="Popularity")
 ```
+
+Paige's edit
+
